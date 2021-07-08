@@ -1,6 +1,7 @@
 import React from 'react'
-import { Images } from '../../consts'
 import { FaFacebookF,FaTwitter,FaInstagram } from "react-icons/fa";
+
+import { Images } from '../../consts'
 
 
 const Footer:React.FC = () => {

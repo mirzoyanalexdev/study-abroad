@@ -1,6 +1,7 @@
 import React from "react";
-import {Images} from '../../consts'
 import { FaArrowRight } from "react-icons/fa";
+
+import {Images} from '../../consts'
 
 const Header:React.FC = () => {
     return (

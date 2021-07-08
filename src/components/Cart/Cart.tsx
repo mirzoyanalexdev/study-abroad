@@ -1,29 +1,36 @@
 import React from "react";
-import {Images} from '../../consts'
 import { FaArrowRight } from "react-icons/fa";
 
+import {Images} from '../../consts'
+import { ServiceCard } from "../../types";
 
 
-const items = [
-    {title:'Career Consuling',
-    text:'Maiores voluptas labrosiam non dolorum perferendis fuga repellat aut.',
-    icon:`${Images.icon1}`,
+
+const items: ServiceCard[]  = [
+    {
+        title:'Career Consuling',
+        text:'Maiores voluptas labrosiam non dolorum perferendis fuga repellat aut.',
+        icon:`${Images.icon1}`,
     },
-    {title:'University Admissions',
-    text:'Maiores voluptas labrosiam non dolorum perferendis fuga repellat aut.',
-    icon:`${Images.icon2}`,
+    {
+        title:'University Admissions',
+        text:'Maiores voluptas labrosiam non dolorum perferendis fuga repellat aut.',
+        icon:`${Images.icon2}`,
     },
-    {title:'Visa Consultancy',
-    text:'Maiores voluptas labrosiam non dolorum perferendis fuga repellat aut.',
-    icon:`${Images.icon3}`,
+    {
+        title:'Visa Consultancy',
+        text:'Maiores voluptas labrosiam non dolorum perferendis fuga repellat aut.',
+        icon:`${Images.icon3}`,
     },
-    {title:'Accommodation',
-    text:'Maiores voluptas labrosiam non dolorum perferendis fuga repellat aut.',
-    icon:`${Images.icon4}`,
+    {
+        title:'Accommodation',
+        text:'Maiores voluptas labrosiam non dolorum perferendis fuga repellat aut.',
+        icon:`${Images.icon4}`,
     },
-    {title:'Pre-Deapture Briefing',
-    text:'Maiores voluptas labrosiam non dolorum perferendis fuga repellat aut.',
-    icon:`${Images.icon5}`,
+    {
+        title:'Pre-Deapture Briefing',
+        text:'Maiores voluptas labrosiam non dolorum perferendis fuga repellat aut.',
+        icon:`${Images.icon5}`,
     },
     
 ]

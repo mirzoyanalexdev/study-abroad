@@ -1,6 +1,7 @@
 import React from "react";
-import CartNews from "../CartNews/CartNews";
 import { FaArrowRight } from "react-icons/fa";
+
+import CartNews from "../CartNews/CartNews";
 
 
 const News: React.FC = () => {

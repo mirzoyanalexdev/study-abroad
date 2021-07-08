@@ -1,6 +1,7 @@
 import React from 'react'
-import {Images} from '../../consts'
 import {FaCalendarAlt} from "react-icons/fa";
+
+import {Images} from '../../consts'
 
 const Items = [
     {

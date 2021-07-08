@@ -1,6 +1,7 @@
 import React from "react";
-import {Images} from '../../consts'
 import Slider from 'react-slick'
+
+import { Images } from '../../consts'
 
 const CarouselHeader: React.FC = () => {
 
@@ -52,7 +53,7 @@ const CarouselHeader: React.FC = () => {
                             <img src={Images.caruselImg3}/>
                     </div>
                     <div>
-                            <img src={Images.caruselImg4}/>
+                        <img src={Images.caruselImg4}/>
                      </div>
                      <div >
                             <img src={Images.caruselImg1}/>
