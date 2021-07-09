@@ -45,7 +45,7 @@ const Cart: React.FC = () => {
                         <img src={item.icon} />
                     </div>
                     <div className='mt-4'>
-                     <p className='text-lg'>{item.title}</p>
+                        <p className='text-lg'>{item.title}</p>
                     </div>
                     <div className='mt-4 text-gray'>
                         <p className='text-sm'>{item.text}</p>
@@ -53,7 +53,7 @@ const Cart: React.FC = () => {
                     <div className='mt-4 flex flex-row items-center cursor-pointer'>
                         <p className='text-blue'>Learn More </p>
                         <FaArrowRight
-                            className='text-blue ml-4'
+                        className='text-blue ml-4'
                         />
                     </div>                
                 </div>

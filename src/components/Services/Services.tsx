@@ -12,11 +12,7 @@ const Services:React.FC = () => {
                      <p>Execute Trade Internetional is an University Applicatio Center,guiding  Bangladeshi students to Australian,British,Canadian and Irish univerisities</p>
                 </div>
             </div>
-        
             <Cart/>
-        
-
-
         </div>
 
     )
