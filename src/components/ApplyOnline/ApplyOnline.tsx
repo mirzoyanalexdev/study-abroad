@@ -11,7 +11,8 @@ const ApplyOnline:React.FC = () => {
                 </div>
                 <div>
                     <button className="bg-purple flex flex-row items-center text-white	 font-bold py-2 px-4 border  rounded">
-                        Apply Online     <FaArrowRight className='ml-4'/>
+                        Apply Online     
+                        <FaArrowRight className='ml-4'/>
                     </button>
                 </div>
                 

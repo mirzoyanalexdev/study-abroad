@@ -1,6 +1,7 @@
 import React from "react";
-import {Images} from '../../consts'
 import { FaArrowRight } from "react-icons/fa";
+
+import {Images} from '../../consts'
 
 const Header:React.FC = () => {
     return (
@@ -28,7 +29,7 @@ const Header:React.FC = () => {
                             Country
                         </li>
                         <li>
-                            <button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-purple hover:border-transparent rounded-xl">
+                            <button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white mt-2 sm:py-2 py-1 sm:px-4 px-2 border border-purple hover:border-transparent rounded-xl">
                                 Apply
                             </button>
                         </li>

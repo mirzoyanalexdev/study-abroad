@@ -57,7 +57,6 @@ const CartEvents:React.FC = () => {
                         </div>   
                         <div className='sm:text-none text-center'>
                             <p className='sm:text-xl text-lg'>{item.time}</p>
-                      
                         </div> 
                     </div>       
                 </div>    

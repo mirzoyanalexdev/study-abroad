@@ -6,7 +6,7 @@ const Events:React.FC = () => {
     return(
         <div className='flex flex-col  sm:w-9/12 w-full m-auto mt-8'>
             <div className='flex justify-center'>
-                <p className='sm:text-4xl text-xl'>
+                <p className='sm:text-4xl text-xl sm:text-block text-center'>
                     Upcoming University Events
                 </p>
             </div>

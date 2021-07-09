@@ -1,6 +1,6 @@
 export const Images = {
-    student: "/images/header.png",
-    oval: "/images/Oval.png",
+    student: '/images/header.png',
+    oval: '/images/Oval.png',
     icon1:'/images/icon1.png',
     icon2:'/images/icon2.png',
     icon3:'/images/icon3.png',
@@ -14,27 +14,12 @@ export const Images = {
     city3:'/images/country3.png',
     profile1:'/images/pic.png',
     profile2:'/images/pic2.png',
-    logo:'/images/logo.png',
+    logo: '/images/logo.png',
     caruselImg1:'/images/carusel1.png',
     caruselImg2:'/images/carusel2.png',
     caruselImg3:'/images/carusel3.png',
     caruselImg4:'/images/carusel4.png',
     headerLogo:'/images/navLogo.png'
-
-
-
-
-
-
-
-
-
-
-
-    
-
-
-
 }
 
 

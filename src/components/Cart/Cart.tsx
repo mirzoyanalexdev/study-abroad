@@ -1,29 +1,36 @@
 import React from "react";
-import {Images} from '../../consts'
 import { FaArrowRight } from "react-icons/fa";
 
+import {Images} from '../../consts'
+import { ServiceCard } from "../../types";
 
 
-const items = [
-    {title:'Career Consuling',
-    text:'Maiores voluptas labrosiam non dolorum perferendis fuga repellat aut.',
-    icon:`${Images.icon1}`,
+
+const items: ServiceCard[]  = [
+    {
+        title:'Career Consuling',
+        text:'Maiores voluptas labrosiam non dolorum perferendis fuga repellat aut.',
+        icon:`${Images.icon1}`,
     },
-    {title:'University Admissions',
-    text:'Maiores voluptas labrosiam non dolorum perferendis fuga repellat aut.',
-    icon:`${Images.icon2}`,
+    {
+        title:'University Admissions',
+        text:'Maiores voluptas labrosiam non dolorum perferendis fuga repellat aut.',
+        icon:`${Images.icon2}`,
     },
-    {title:'Visa Consultancy',
-    text:'Maiores voluptas labrosiam non dolorum perferendis fuga repellat aut.',
-    icon:`${Images.icon3}`,
+    {
+        title:'Visa Consultancy',
+        text:'Maiores voluptas labrosiam non dolorum perferendis fuga repellat aut.',
+        icon:`${Images.icon3}`,
     },
-    {title:'Accommodation',
-    text:'Maiores voluptas labrosiam non dolorum perferendis fuga repellat aut.',
-    icon:`${Images.icon4}`,
+    {
+        title:'Accommodation',
+        text:'Maiores voluptas labrosiam non dolorum perferendis fuga repellat aut.',
+        icon:`${Images.icon4}`,
     },
-    {title:'Pre-Deapture Briefing',
-    text:'Maiores voluptas labrosiam non dolorum perferendis fuga repellat aut.',
-    icon:`${Images.icon5}`,
+    {
+        title:'Pre-Deapture Briefing',
+        text:'Maiores voluptas labrosiam non dolorum perferendis fuga repellat aut.',
+        icon:`${Images.icon5}`,
     },
     
 ]
@@ -38,7 +45,7 @@ const Cart: React.FC = () => {
                         <img src={item.icon} />
                     </div>
                     <div className='mt-4'>
-                     <p className='text-lg'>{item.title}</p>
+                        <p className='text-lg'>{item.title}</p>
                     </div>
                     <div className='mt-4 text-gray'>
                         <p className='text-sm'>{item.text}</p>
@@ -46,7 +53,7 @@ const Cart: React.FC = () => {
                     <div className='mt-4 flex flex-row items-center cursor-pointer'>
                         <p className='text-blue'>Learn More </p>
                         <FaArrowRight
-                            className='text-blue ml-4'
+                        className='text-blue ml-4'
                         />
                     </div>                
                 </div>
