@@ -4,40 +4,6 @@ import Slider from 'react-slick'
 import { Images } from '../../consts'
 
 
-const settings = {
-    dots: true,
-    infinite: true,
-    speed: 350,
-    slidesToShow: 4,
-    slidesToScroll: 1,
-    responsive: [
-    {
-      breakpoint: 1024,
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 3,
-        infinite: true,
-        dots: true
-      }
-    },
-    {
-      breakpoint: 768,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 2,
-        initialSlide: 1
-
-      }
-    },
-    {
-      breakpoint: 640,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1
-      }
-    }
-    ]
-  };
 
 
 const Items = [
@@ -110,11 +76,11 @@ const Countries:React.FC = () => {
                
             </div>
             <Slider  {...settings}>
-            {Items.map((item) => (
-                        <div className='sm:ml-4 -ml-2 h-1/2 flex flex-col sm:pt-0 pt-2 '>
+            {Items.map((item,i) => (
+                        <div key={i} className='sm:ml-4 -ml-2 h-1/2 flex flex-col sm:pt-0 pt-2 '>
                           <div className='ml-4  h-1/2 flex flex-col'>
                               <div className='sm:pt-2'>
-                                  <img src ={item.img} />
+                                  <img alt='' src ={item.img} />
                               </div>  
                               <div className='mt-4'>
                                   <p>{item.title}</p>

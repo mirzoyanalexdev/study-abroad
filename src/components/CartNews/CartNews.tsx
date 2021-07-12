@@ -27,10 +27,10 @@ const CartNews: React.FC = () => {
     return (
         <div className='flex sm:flex-row md:flex-col lg:flex-row flex-col p-4 sm:mt-12 mt-4 m-auto justify-between'>
             {
-                Items.map((item) => (
-                    <div className='md:ml-4 ml-0 shadow-2xl rounded-lg	bg-white sm:mb-none mb-4'>
+                Items.map((item,i) => (
+                    <div key={i} className='md:ml-4 ml-0 shadow-2xl rounded-lg	bg-white sm:mb-none mb-4'>
                         <div>
-                            <img className='w-full sm:h-40 md:h-64 lg:h-40 ' src={item.bg} 
+                            <img alt='' className='w-full sm:h-40 md:h-64 lg:h-40 ' src={item.bg} 
                         
                             />
                         </div>   

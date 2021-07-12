@@ -39,10 +39,10 @@ const items: ServiceCard[]  = [
 const Cart: React.FC = () => {
     return (
         <div className="grid sm:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-12 sm:w-9/12 w-10/12 m-auto mt-16">
-            {items.map((item) => (
-                <div className='flex flex-col sm:w-6/7   m-auto rounded  p-4 shadow-2xl	'>
+            {items.map((item,i) => (
+                <div key={i} className='flex flex-col sm:w-6/7   m-auto rounded  p-4 shadow-2xl	'>
                     <div className='w-12 h-12'>
-                        <img src={item.icon} />
+                        <img alt='' src={item.icon} />
                     </div>
                     <div className='mt-4'>
                         <p className='text-lg'>{item.title}</p>

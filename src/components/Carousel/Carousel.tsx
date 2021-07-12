@@ -44,22 +44,22 @@ const CarouselHeader: React.FC = () => {
         <div className='w-9/12 m-auto pt-8'>
             <Slider  {...settings}>
                     <div className='pr-8'>
-                        <img src={Images.caruselImg1}/>
+                        <img alt='' src={Images.caruselImg1}/>
                     </div>
                     <div className='pr-8'>
-                        <img src={Images.caruselImg2}/>
+                        <img alt='' src={Images.caruselImg2}/>
                     </div>
                     <div className='pr-8'>
-                        <img src={Images.caruselImg3}/>
+                        <img alt=''src={Images.caruselImg3}/>
                     </div>
                     <div className='pr-8'>
-                        <img src={Images.caruselImg4}/>
+                        <img alt='' src={Images.caruselImg4}/>
                      </div>
                      <div className='pr-8'>
-                        <img src={Images.caruselImg1}/>
+                        <img alt='' src={Images.caruselImg1}/>
                     </div>
                     <div className='pr-8'>
-                        <img src={Images.caruselImg2}/>
+                        <img alt='' src={Images.caruselImg2}/>
                     </div>
              </Slider>
         </div>
