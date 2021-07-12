@@ -27,8 +27,8 @@ const Items = [
 const CartEvents:React.FC = () => {
     return(
         <div className='flex sm:flex-row flex-col p-8'>
-            {Items.map((item) => (
-                <div className=' sm:w-2/3 w-full m-auto flex flex-col shadow-2xl sm:ml-6 ml-0 sm:p-4 p-2'>
+            {Items.map((item,i) => (
+                <div key={i} className=' sm:w-2/3 w-full m-auto flex flex-col shadow-2xl sm:ml-6 ml-0 sm:p-4 p-2'>
                     <div className='flex flex-row '>
                         <div className='flex flex-col bg-light-gray w-20 h-16  items-center justify-center text-btn-color font-bold text-center mr-4 mb-2 rounded-md'>
                                <div className=''>

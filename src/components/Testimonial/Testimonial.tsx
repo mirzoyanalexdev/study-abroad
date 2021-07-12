@@ -32,11 +32,11 @@ const Testimonial:React.FC = () => {
             </div>
             
             <div className='flex  sm:flex-row md:flex-col lg:flex-row flex-col justify-center m-auto mt-20 '>
-                {Items.map((item) => (
-                    <div className='shadow-2xl p-4 flex flex-col sm:w-96 w-11/12 sm:ml-8 m-auto mt-8'>
+                {Items.map((item,i) => (
+                    <div key={i} className='shadow-2xl p-4 flex flex-col sm:w-96 w-11/12 sm:ml-8 m-auto mt-8'>
                         <div className='flex flex-row'>
                             <div>
-                                <img src={item.img}/>
+                                <img alt='' src={item.img}/>
                             </div>
                             <div className='flex flex-col ml-6'>
                                 <div>

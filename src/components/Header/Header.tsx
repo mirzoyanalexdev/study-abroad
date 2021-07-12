@@ -8,7 +8,7 @@ const Header:React.FC = () => {
         <div className='flex flex-col sm:w-9/12 md:w-11/12 w-11/12 m-auto mb-8'>
             <div className='flex md:flex-row flex-col justify-between items-center mt-8'>
                 <div>
-                    <img src={Images.headerLogo} />
+                    <img alt='' src={Images.headerLogo} />
                 </div>
 
                 <div>
@@ -50,7 +50,7 @@ const Header:React.FC = () => {
                         </button>
                     </div>
                 </div>
-                <img src={Images.student} className='sm:block hidden' />
+                <img alt='' src={Images.student} className='sm:block hidden' />
             </div>
 
         </div>
